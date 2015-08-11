@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video 03</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/v00.js"></script>
+</head>
+<body>
+	<h1>Benefits of using CDN</h1>
+	
+	Vantagens:
+	<ul>
+		<li>local Cache</li>
+		<li>downloads paralelos</li>
+		<li>reduz carregamento do servidor</li>
+	</ul>
+	
+	Desvatagem
+	<ul>
+		<li>Firewall pode bloquear o script</li>
+	</ul>
+
+	Recomendação: Colocar dois endereços
+	<ul>
+		<li>Primeiro o CDN</li>
+		<li>Segundo um arquivo local</li>
+	</ul>
+
+	< script type="text/javascript">
+	window.jQuery || document.write(< script type="text/javascript" src="js/jquery-2.1.4.min.js">< /script>
+	</ script>
+
+</body>
+</html>
